@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">News</a>
@@ -38,14 +38,14 @@
                         <a class="nav-link" href="#">Programs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link active" href="schedule.html">Schedule</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
                             Academy
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">About</a>
+                            <a class="dropdown-item" href="about.html">About</a>
                             <a class="dropdown-item" href="instructors.html">Instructors</a>
                         </div>
                     </li>
@@ -87,6 +87,70 @@
           $(document).ready(function(){
             $('#calendar').fullCalendar({
               // put your options and callbacks here
+              events: [
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-05-21T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-05-23T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-05-25T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-05-28T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-05-30T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                 title  : 'Specific Training',
+                 start  : '2018-06-01T19:00:00',
+                 allDay : false // will make the time show
+               },
+               {
+                  title  : 'Beginners Classes',
+                  start  : '2018-05-21T20:30:00'
+                },
+                {
+                   title  : 'Beginners Classes',
+                   start  : '2018-05-23T08:00:00'
+                 },
+                 {
+                    title  : 'Beginners Classes',
+                    start  : '2018-05-24T17:30:00'
+                  },
+                  {
+                     title  : 'Beginners Classes',
+                     start  : '2018-05-25T08:00:00'
+                   },
+                   {
+                      title  : 'Beginners Classes',
+                      start  : '2018-05-28T08:00:00'
+                    },
+                   {
+                      title  : 'Beginners Classes',
+                      start  : '2018-05-30T08:00:00'
+                    },
+                    {
+                       title  : 'Beginners Classes',
+                       start  : '2018-05-31T17:30:00'
+                     },
+                     {
+                        title  : 'Beginners Classes',
+                        start  : '2018-06-01T08:00:00'
+                      }
+              ]
             })
           })
         </script>
